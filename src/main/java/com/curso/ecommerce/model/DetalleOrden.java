@@ -7,13 +7,11 @@ public class DetalleOrden {
 	private double cantidad;
 	private double precio;
 	private double total;
+	private double total1;
 	
 	
 	public DetalleOrden() {
 	}
-
-
-
 
 
 	public DetalleOrden(Integer id, String nombre, double cantidad, double precio, double total) {
